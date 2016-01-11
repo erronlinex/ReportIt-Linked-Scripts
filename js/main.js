@@ -6,6 +6,10 @@ $(document).ready(main);
 
 function main(){
   var incident = getURLParameter('incident').toLowerCase();
-// Link to scripts
-alert(incident);
+  
+  if(incident=== "hassestateparking"){
+  // link to scripts for incident hassestateparking
+    console.log(incident);
+  }
+
 }
