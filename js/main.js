@@ -10,6 +10,10 @@ function main(){
   if(incident=== "hassestateparking"){
   // link to scripts for incident hassestateparking
     console.log(incident);
+    
+    $("<base/>", {
+        target: "_parent"
+    }).appendTo("head");
   }
 
 }
