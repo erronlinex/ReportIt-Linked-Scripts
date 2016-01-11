@@ -5,7 +5,7 @@ function getURLParameter(name) {
 $(document).ready(main);
 
 function main(){
-  var incident = getURLParameter('incident').lowercase();
+  var incident = getURLParameter('incident').toLowerCase();
 // Link to scripts
 alert(incident);
 }
