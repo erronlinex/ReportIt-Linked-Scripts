@@ -14,6 +14,8 @@ function main(){
     $("<base/>", {
         target: "_parent"
     }).appendTo("head");
+    
+    $('head').append('<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />');
   }
 
 }
